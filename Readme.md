@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Max Kiselyov](https://up.htmlacademy.ru/javascript/23/user/1696347).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Мастеров](https://htmlacademy.ru/profile/id912463).
 
 ---
 
