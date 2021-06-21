@@ -1,4 +1,4 @@
-import {getRandomInteger,getRandomFloat,getAuthorAvatar,shuffleArray} from './util.js';
+import {getRandomInteger,getRandomFloat,shuffleArray} from './random.js';
 
 const types = ['palace','flat','house','bungalow','hotel'];
 const checktimes = ['12:00','13:00','14:00'];
@@ -6,6 +6,8 @@ const features = ['wifi','dishwasher','parking','washer','elevator','conditioner
 const photosAddresses = ['https://assets.htmlacademy.ru/content/intensive/javascript-1/keksobooking/duonguyen-8LrGtIxxa4w.jpg','https://assets.htmlacademy.ru/content/intensive/javascript-1/keksobooking/brandon-hoogenboom-SNxQGWxZQi0.jpg','https://assets.htmlacademy.ru/content/intensive/javascript-1/keksobooking/claire-rendall-b6kAwr1i0Iw.jpg'];
 
 const maxPhotosArrayLength = 16;
+
+const getAuthorAvatar = (id) => id < 10 ? `img/avatars/user0${id}.png` : `img/avatars/user${id}.png`;
 
 const getFeatures = () => {
 
@@ -62,4 +64,4 @@ const generateAdverts = (count) => {
   return adverts;
 };
 
-export {getFeatures,generatePhotos,createAdvert,generateAdverts};
+export {generateAdverts};
