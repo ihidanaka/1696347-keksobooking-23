@@ -42,10 +42,10 @@ const createAdvert = (id) => {
     offer: {
       title: 'Аренда жилья в Токио',
       address: `${latitude}, ${longtitude}`,
-      price: getRandomInteger(0),
+      price: getRandomInteger(2500,10000),
       type: types[getRandomInteger(0, types.length - 1)],
-      rooms: getRandomInteger(0),
-      guests: getRandomInteger(0),
+      rooms: getRandomInteger(1, 5),
+      guests: getRandomInteger(1, 100),
       checkin: checktimes[getRandomInteger(0, checktimes.length - 1)],
       checkout: checktimes[getRandomInteger(0, checktimes.length - 1)],
       features: getFeatures(),
