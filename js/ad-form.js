@@ -1,7 +1,7 @@
 const typeSelectInput = document.querySelector('#type');
 const pricePerNightInput = document.querySelector('#price');
 const roomNumber = document.querySelector('#room_number');
-const roomCapacity = document.querySelector('#capacity')
+const roomCapacity = document.querySelector('#capacity');
 const capacityList = roomCapacity.querySelectorAll('option');
 
 const offerTypeToMinPrice = {
